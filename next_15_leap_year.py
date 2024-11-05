@@ -1,0 +1,1 @@
+year = input("Enter the year: ")
