@@ -12,9 +12,9 @@ def largest_prime_factor(n):
     for i in range(1,n+1):
         # print(i)
         if n % i == 0 and is_prime(i):
-            print("inside if",i)
+            # print("inside if",i)
             ls.append(i)
-            print(ls)
+            # print(ls)
     return max(ls)
     # return 6
 
